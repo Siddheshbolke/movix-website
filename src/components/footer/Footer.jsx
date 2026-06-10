@@ -12,7 +12,7 @@ import "./style.scss";
 
 const Footer = () => {
     return (
-        <footer className="footers">
+        <footer className="footer">
             <ContentWrapper>
                 <ul className="menuItems">
                     <li className="menuItem">Terms Of Use</li>
