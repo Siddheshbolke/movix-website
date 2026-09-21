@@ -81,7 +81,7 @@ const DetailsBanner = ({ video, crew }) => {
                                         <div className="row">
                                             <CircleRating
                                                 rating={data.vote_average.toFixed(
-                                                    1
+                                                    
                                                 )}
                                             />
                                             <div
