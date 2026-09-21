@@ -58,7 +58,7 @@ const Explore = () => {
             } else {
                 setData(res);
             }
-            setPageNum((prev) => prev + 1);
+            setPageNum((prev) => prev + 2);
         });
     };
 
