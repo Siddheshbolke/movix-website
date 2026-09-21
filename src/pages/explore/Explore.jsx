@@ -53,7 +53,7 @@ const Explore = () => {
             if (data?.results) {
                 setData({
                     ...data,
-                    results: [...data?.results, ...res.results],
+                    results: [...data?.results, ...res.result],
                 });
             } else {
                 setData(res);
@@ -148,7 +148,7 @@ const Explore = () => {
                                         <MovieCard
                                             key={index}
                                             data={item}
-                                            mediaType={mediaType}
+                                            mediaType={media}
                                         />
                                     );
                                 })}
